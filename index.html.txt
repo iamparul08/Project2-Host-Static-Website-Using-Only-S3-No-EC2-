@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Cloud Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🚀 My First S3 Static Website</h1>
+        <p>Hosted using Amazon S3 (No EC2)</p>
+    </header>
+
+    <section class="content">
+        <h2>About This Project</h2>
+        <p>
+            This website is hosted entirely on Amazon S3 using static website hosting.
+            No servers were used in this project.
+        </p>
+
+        <button onclick="showMessage()">Click Me</button>
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>Created by Parul | Cloud Journey 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
